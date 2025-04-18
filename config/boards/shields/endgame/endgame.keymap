@@ -128,9 +128,9 @@
         misc {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-           &sys_reset   &trans     &trans     &trans   &bt BT_SEL 0   &kp C_VOL_UP  &trans     &trans     &trans     &sys_reset
+           &sys_reset   &trans     &trans     &trans   &bt BT_SEL 0  &kp C_VOL_DN  &kp C_VOL_UP   &kp C_PREV     &kp C_NEXT  &kp C_PP  
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1  &kp C_VOL_DN &kp C_PREV &kp C_NEXT &kp C_PP     &bootloader
+          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1  &kp C_BRI_DN    &kp C_BRI_UP &trans &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
             &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
