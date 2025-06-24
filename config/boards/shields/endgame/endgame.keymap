@@ -16,6 +16,8 @@
 #define MISC  4
 #define MOUSE 5
 
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
+
 
 &sk {
     release-after-ms = <5000>;
