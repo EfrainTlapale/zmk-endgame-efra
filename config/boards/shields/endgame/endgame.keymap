@@ -114,7 +114,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
            &kp UNDER   &kp GRAVE  &kp DQT   &kp SQT      &kp EXCL        &kp LBKT  &kp LPAR    &kp RPAR   &kp RBKT   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-         &kp BACKSLASH &kp PRCNT  &kp TILDE    &none   &kp CARET        &kp DLLR  &kp LBRC  &kp RBRC    &none      &kp AT
+         &kp BACKSLASH &kp PRCNT  &kp TILDE    &none   &kp AT        &kp CARET  &kp LBRC  &kp RBRC    &kp DLLR      &kp AT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                      &trans  &trans     &trans          &trans     &trans &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -126,9 +126,9 @@
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp ESC      &none     &mo MOUSE     &none      &none         &kp PG_DN  &kp PG_UP   &none       &none     &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-             &sk LALT  &sk LSHFT  &sk LCTRL  &sk LGUI     &trans       &kp LEFT   &kp DOWN     &kp UP    &kp RIGHT  &none
+             &kp LALT  &kp LSHFT  &kp LCTRL  &kp LGUI     &trans       &kp LEFT   &kp DOWN     &kp UP    &kp RIGHT  &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-               &none    &none     &mo MOUSE     &kp LGUI      &none       &none      &kp BSPC    &kp TAB     &none      &none
+              &sk LALT  &sk LSHFT  &sk LCTRL  &sk LGUI      &none       &none      &kp BSPC    &kp TAB     &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                      &trans  &trans     &trans          &trans     &trans &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
