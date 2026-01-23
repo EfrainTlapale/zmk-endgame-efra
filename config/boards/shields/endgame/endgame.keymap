@@ -18,6 +18,8 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20
 
+#define HYPER LS(LC(LA(LGUI)))
+
 
 &sk {
     release-after-ms = <5000>;
@@ -126,7 +128,7 @@
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp ESC      &none     &mo MOUSE     &none      &none         &kp PG_DN  &kp PG_UP   &none       &none     &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-             &kp LALT  &kp LSHFT  &kp LCTRL  &kp LGUI     &trans       &kp LEFT   &kp DOWN     &kp UP    &kp RIGHT  &none
+             &kp LALT  &kp LSHFT  &kp LCTRL  &kp LGUI     &kp HYPER       &kp LEFT   &kp DOWN     &kp UP    &kp RIGHT  &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
               &sk LALT  &sk LSHFT  &sk LCTRL  &sk LGUI      &none       &none      &kp BSPC    &kp TAB     &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
