@@ -127,7 +127,7 @@
         ext {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-            &none      &none     &mo MOUSE     &none      &none         &kp PG_DN  &kp PG_UP   &none       &none     &kp PSCRN
+            &kp ESC      &none     &mo MOUSE     &none      &none         &kp PG_DN  &kp PG_UP   &none       &none     &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
              &kp LALT  &kp LSHFT  &kp LCTRL  &kp LGUI     &kp HYPER       &kp LEFT   &kp DOWN     &kp UP    &kp RIGHT  &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
