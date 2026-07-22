@@ -113,7 +113,7 @@
         symbols {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-            &none    &kp HASH    &kp PIPE   &kp STAR   &kp AMPS      &kp MINUS  &kp LT      &kp GT   &kp EQUAL    &kp PLUS
+            &kp ESC    &kp HASH    &kp PIPE   &kp STAR   &kp AMPS      &kp MINUS  &kp LT      &kp GT   &kp EQUAL    &kp PLUS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
            &kp UNDER   &kp GRAVE  &kp DQT   &kp SQT      &kp EXCL        &kp LBKT  &kp LPAR    &kp RPAR   &kp RBKT   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
