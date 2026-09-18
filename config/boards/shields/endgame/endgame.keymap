@@ -20,6 +20,10 @@
 
 #define HYPER LS(LC(LA(LGUI)))
 
+#define MAC_SNIP      LG(LC(LS(N4)))
+#define MAC_SNIP_FILE LG(LS(N4))
+
+
 
 &sk {
     release-after-ms = <5000>;
@@ -127,7 +131,7 @@
         ext {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-            &kp ESC      &none     &mo MOUSE     &none      &none         &kp PG_DN  &kp PG_UP   &none       &none     &kp PSCRN
+            &kp ESC      &none     &mo MOUSE     &none      &none     &kp PG_DN  &kp PG_UP  &kp MAC_SNIP_FILE &kp MAC_SNIP &kp PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
              &kp LALT  &kp LSHFT  &kp LCTRL  &kp LGUI     &kp HYPER       &kp LEFT   &kp DOWN     &kp UP    &kp RIGHT  &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
